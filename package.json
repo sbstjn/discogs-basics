@@ -2,7 +2,7 @@
   "name": "discogs-basics",
   "description": "Minimal wrapper for the Discogs Collection API.",
   "author": "Sebastian Müller <mail@sbstjn.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./build/main.js",
   "types": "./build/main.d.ts",
   "license": "MIT",
