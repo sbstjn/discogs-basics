@@ -1,5 +1,7 @@
 {
   "name": "discogs-basics",
+  "description": "Minimal wrapper for the Discogs Collection API.",
+  "author": "Sebastian Müller <mail@sbstjn.com>",
   "version": "0.0.1",
   "main": "./build/main.js",
   "types": "./build/main.d.ts",
@@ -12,7 +14,15 @@
     "test:cover": "yarn test -- --coverage",
     "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbstjn/discogs-basics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sbstjn/discogs-basics/issues"
+  },
+  "homepage": "https://github.com/sbstjn/discogs-basics",
+  "devDependencies": {
     "@types/fetch-mock": "^5.8.2",
     "@types/isomorphic-fetch": "^0.0.34",
     "@types/jest": "^19.2.4",
