@@ -1,0 +1,43 @@
+{
+  "name": "discogs-basics",
+  "version": "0.0.1",
+  "main": "./build/main.js",
+  "types": "./build/main.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json '{src,test}/**/*.{ts,tsx}' -s node_modules/tslint-stylish -t stylish",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cover": "yarn test -- --coverage",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "dependencies": {
+    "@types/fetch-mock": "^5.8.2",
+    "@types/isomorphic-fetch": "^0.0.34",
+    "@types/jest": "^19.2.4",
+    "@types/node": "^7.0.27",
+    "coveralls": "^2.13.1",
+    "fetch-mock": "^5.11.0",
+    "isomorphic-fetch": "^2.2.1",
+    "jest": "^20.0.4",
+    "node-fetch": "^1.7.1",
+    "ts-jest": "^20.0.5",
+    "ts-node": "^3.0.4",
+    "tslint": "^5.4.2",
+    "tslint-react": "^3.0.0",
+    "tslint-stylish": "^2.1.0",
+    "typescript": "^2.3.4"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/tests/.*\\.(ts|tsx|js)$"
+  }
+}
