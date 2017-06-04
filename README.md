@@ -20,13 +20,13 @@ First [create an access token](https://www.discogs.com/de/settings/developers) f
 ```javascript
 const Discogs = new API('username', 'token')
 
-# Get details about most recent record
+// Get details about most recent record
 Discogs.Last().then(console.log)
 
-# Get number of items in your collection
+// Get number of items in your collection
 Discogs.Items().then(console.log)
 
-# Get maximum, minimum, median collection value
+// Get maximum, minimum, median collection value
 Discogs.Value().then(console.log)
 ```
 
