@@ -1,6 +1,6 @@
 # Discogs Collection Basics
 
-[![npm](https://img.shields.io/npm/v/dicsogs-basics.svg)](https://www.npmjs.com/package/dicsogs-basics)
+[![npm](https://img.shields.io/npm/v/discogs-basics.svg)](https://www.npmjs.com/package/discogs-basics)
 [![CircleCI](https://img.shields.io/circleci/project/github/sbstjn/discogs-basics.svg)](https://circleci.com/gh/sbstjn/discogs-basics)
 [![license](https://img.shields.io/github/license/sbstjn/discogs-basics.svg)](https://github.com/sbstjn/discogs-basics/blob/master/LICENSE.md)
 [![Coveralls](https://img.shields.io/coveralls/sbstjn/discogs-basics.svg)](https://coveralls.io/github/sbstjn/discogs-basics)
